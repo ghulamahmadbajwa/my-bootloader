@@ -1,0 +1,193 @@
+    1  ls
+    2  pwd
+    3  cd ~
+    4  mkdir lecture-2
+    5  cd lecture-2
+    6  mkdir CSC351
+    7  cd CSC351
+    8  mkdir Files
+    9  cd Files
+   10  mkdir CFiles
+   11  pwd
+   12  cd ~
+   13  cd Destop
+   14  cd Desktop
+   15  ls
+   16  cd lecture-2
+   17  cd ~
+   18  cd lecture-2
+   19  cd CSC351
+   20  cd Files
+   21  rmkdir CFiles
+   22  rmdir CFiles
+   23  cd ..
+   24  rmdir Files
+   25  cd ..
+   26  rmdir CSC351
+   27  cd ~
+   28  ls
+   29  mkdir lecture-3
+   30  cd lecture-3
+   31  mkdir document
+   32  cd document
+   33  mkdir work
+   34  cd work
+   35  pwd
+   36  cd ..
+   37  ls
+   38  pwd
+   39  cd ..
+   40  pwd
+   41  touch notes.txt
+   42  ls
+   43  mv notes.txt [200~/home/ghulam-ahmad/lecture-3/document/work
+   44  ls
+   45  mv notes.txt /home/ghulam-ahmad/lecture-3/document/work_notes.txt
+   46  clear
+   47  cd ~
+   48  ls
+   49  cd lecture-3
+   50  ls
+   51  mkdir logs
+   52  cd logs
+   53  touch logs_backup.txt
+   54  ls
+   55  gzip logs.txt
+   56  gzip logs_backup.txt
+   57  cd ..
+   58  mkdir backup
+   59  cd logs
+   60  ls
+   61  mv logs_backup.txt.gz /home/ghulam-ahmad/lecture-3/backup
+   62  clear
+   63  ls
+   64  cd ~
+   65  ls
+   66  cd lecture-3
+   67  cat > hello.txt
+   68  g++ --version
+   69  sudo apt install g++
+   70  g++ --version
+   71  sudo apt g++
+   72  sudo apt install g++
+   73  mkdir lec6
+   74  touch abc.txt
+   75  gedit abc.txt
+   76  open abc.txt
+   77  ln abc.txt abc1.txt
+   78  open abc1.txt
+   79  open abc.txt
+   80  clear
+   81  sudo apt gedit
+   82  sudo apt install gedit
+   83  rm abc.txt
+   84  open abc1.txt
+   85  ls-i
+   86  ln-S abc1.txt soft.txt
+   87  ln-s abc1.txt soft.txt
+   88  ln -s abc1.txt soft.txt
+   89  ls -i
+   90  open soft.txt
+   91  open abc1.txt
+   92  ls -l
+   93  ln soft.txt hard.txt
+   94  open hard.txt
+   95  ls -l
+   96  ln abc1.txt hard1.txt
+   97  ls -l
+   98  ls -i
+   99  sudo apt install gcc
+  100  sudo apt-get install g++
+  101  --fix-missing
+  102  apt-get update
+  103  ls
+  104  mkdir lecture-6
+  105  ls
+  106  cd lecture-6
+  107  touch hello.txt
+  108  ls
+  109  meme.txt
+  110  touch class.txt
+  111  rm class.txt
+  112  ls
+  113  rm hello.txt
+  114  touch soft.txt
+  115  touch hard.txt
+  116  ls
+  117  cat > hard.txt
+  118  ls
+  119  cat < hard.txt
+  120  ls
+  121  pwd
+  122  ls cat hard.txt
+  123  cat hard.txt
+  124  ls
+  125  rm hard.txt
+  126  rm soft.txt
+  127  ls
+  128  cat < abc.txt
+  129  clear
+  130  ls
+  131  cat > abc.txt
+  132  cat > def.txt
+  133  cat def.txt
+  134  ls
+  135  cat > abc.txt
+  136  cat abc .txt
+  137  cat abc.txt
+  138  clear
+  139  ls
+  140  rm abc.txt
+  141  rm def.txt
+  142  cat > abc.txt
+  143  cat abc.txt
+  144  cat > def.txt
+  145  ln abc.txt hard.txt
+  146  ls
+  147  ln -s def.txt soft.txt
+  148  ls
+  149  cd~
+  150  cd ~
+  151  touch exec2.cpp
+  152  touch.txt
+  153  <sudo apt update
+  154  sudo apt install micro
+  155  sudo apt update
+  156  sudo apt install micro
+  157  make --version
+  158  sudo apt install make
+  159  sudo apt install nasm
+  160  nasm --version
+  161  sudo apt install qemu-system-x86
+  162  sudo apt update && sudo apt upgrade
+  163  mkdir os-from-scratch
+  164  cd os-from-scratch
+  165  mkdir src
+  166  cd src
+  167  micro main.asm
+  168  cd ..
+  169  mkdir build
+  170  micro Makefile
+  171  cd src
+  172  micro main.asm
+  173  cd ..
+  174  ls
+  175  make
+  176  cd ~/os-from-scratch
+  177  pwd
+  178  micro Makefile
+  179  make
+  180  make run
+  181  ls
+  182  cd src
+  183  ls
+  184  micro main.asm
+  185  make run
+  186  cd ..
+  187  ls
+  188  make run
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd os-from-scratch
+  193  history > terminal_history.txt
